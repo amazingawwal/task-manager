@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Do homework",
+    "description": "Math and Science",
+    "completed": true,
+    "createdAt": "2025-06-01T08:44:29.643Z"
+  },
+  {
+    "id": 2,
+    "title": "Buy groceries",
+    "description": "Milk, bread, eggs",
+    "completed": false,
+    "createdAt": "2025-06-01T09:33:25.724Z"
+  },
+  {
+    "id": 3,
+    "title": "Learn Advanced Python",
+    "description": "PyTorch, Machine Learning, Robotics and AI",
+    "completed": false,
+    "createdAt": "2025-06-01T09:48:56.443Z"
+  },
+  {
+    "id": 4,
+    "title": "House chores",
+    "description": "Do laundry, Wash dishes, Sweep the yard, Iron clothes",
+    "completed": false,
+    "createdAt": "2025-06-01T11:00:00.468Z"
+  }
+]
