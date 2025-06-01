@@ -13,31 +13,30 @@ A simple Node.js task manager app that supports both a command-line interface (C
 
 ---
 
-## Getting Started
+## Getting Started : Sample Usage Examples
+### Command Line Usage:
 
-## Sample Usage Examples
-## Command Line Usage:
-# Add a new task
+#### Add a new task
 
 node app.js add "Buy groceries" "Milk, bread, eggs"
 
-# List all tasks
+#### List all tasks
 
 node app.js list
 
-# Mark task as complete
+#### Mark task as complete
 
 node app.js complete 1
 
-# Delete a task
+#### Delete a task
 
 node app.js delete 2
 
-# Start HTTP server
+#### Start HTTP server
 
 node app.js server
 
-## Expected Output Examples:
+### Expected Output Examples:
 Adding a task:
 ✓ Task added successfully!
 
@@ -59,7 +58,7 @@ Listing tasks:
     Created: 2025-05-27 09:15 AM
 
 
-# Start the HTTP Server
+#### Start the HTTP Server
 node app.js server
 
 GET -'/' Welcome message
@@ -68,12 +67,12 @@ GET - '/tasks' All tasks as JSON
 
 POST - '/tasks/  Add a new task with JSON body
 
-# Note.
+#### Note.
 - Server is running on port 4000.
 - The file test.rest can be used to test out the http requests.
 
 ---
-# Project Structure
+### Project Structure
 
 TASK-MANAGER/
 ├── app.js             # Main CLI + server logic
